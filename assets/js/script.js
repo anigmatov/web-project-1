@@ -23,3 +23,11 @@ function headerShadow() {
     navHeader.style.lineHeight = "90px";
   }
 }
+
+var typingEffect = new Typed(".typedText", {
+  strings : ["Web Developer", "Designer", "Student"],
+  loop: true,
+  typeSpeed: 100,
+  backSpeed: 60,
+  backDelay: 2000
+})
